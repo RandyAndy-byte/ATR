@@ -3,7 +3,7 @@ import openai
 
 def request(question):
     API_URL = "https://api-inference.huggingface.co/models/Salesforce/codegen-350M-mono"
-    headers = {"Authorization": "Bearer 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"}
+    headers = {"Authorization": "Bearer hf_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"}
 
     def query(payload):
         response = requests.post(API_URL, headers=headers, json=payload)
